@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: #4ba6fc;
+}
+header h1{
+    text-align: center;
+    font-size: 32px;
+    color: #ffffff;
+    padding: 30px;
+}
+.contenedor{
+    max-width: 1200px;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    contain: paint;
+}
+/* SECCION CONTENEDOR DE ITEMS */
+.contenedor-items{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+    transition: .3s;
+}
+.item{
+    max-width: 200px;
+    max-height: 800px;
+    margin: auto;
+    border: 1px solid #4ba6fc;
+    border-radius: 10px;
+    padding: 20px;
+    transition: .3s;
+}
+.img-item{
+    width: 100%;
+}
+.item:hover{
+    box-shadow: 0 0 5px #4ba6fc;
+    scale: 1.01;
+}
+.titulo-item{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    color: #474747;
+    text-transform: uppercase;
+}
+.precio-item{
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.boton-item {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    background-color: #4ba6fc;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
